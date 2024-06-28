@@ -1,11 +1,12 @@
-Script started on 2023-10-06 15:35:08-06:00 [TERM="xterm-256color" TTY="/dev/pts/402" COLUMNS="97" LINES="13"]
+Script started on 2023-10-21 15:40:37-06:00 [TERM="xterm-256color" TTY="/dev/pts/463" COLUMNS="97" LINES="16"]
 
 Disk quotas for user yuge.zhang1 (uid 29867882): 
      Filesystem   space   quota   limit   grace   files   quota   limit   grace
-10.44.68.26:/CS    690M  10240M  10240M            5819    100k    100k        
+10.44.68.26:/CS    870M  10240M  10240M            7603    100k    100k        
 
-]0;yuge.zhang1@csa1:~/Desktop/355[?2004h[UC yuge.zhang1@csa1 355] exitgdb assign2acc -o assign2a assign2a.s
-[?2004l]0;yuge.zhang1@csa1:~/Desktop/355[?2004h[UC yuge.zhang1@csa1 355] gcc -o assign2a assign2a.sexit[Kgdb assign2a
+]0;yuge.zhang1@csa1:~/Desktop/355[?2004h[UC yuge.zhang1@csa1 355] exitgdb assign3cc -o assign3 assign3.s[2@m4 assign3.asm >[C[C[C[C[C[C[C[C[C[C
+[?2004l]0;yuge.zhang1@csa1:~/Desktop/355[?2004h[UC yuge.zhang1@csa1 355] m4 assign3.asm > assign3.sexit[Kgdb assign3cc -o assign3 assign3.s
+[?2004l]0;yuge.zhang1@csa1:~/Desktop/355[?2004h[UC yuge.zhang1@csa1 355] gcc -o assign3 assign3.s[2@m4 assign3.asm >[C[C[C[C[C[C[C[C[C[Cexit[Kgdb assign3
 [?2004l[35;1mGNU gdb (GDB) Fedora Linux 13.2-2.fc38[m
 Copyright (C) 2023 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <[32mhttp://gnu.org/licenses/gpl.html[m>
@@ -18,174 +19,296 @@ For bug reporting instructions, please see:
 [32m<https://www.gnu.org/software/gdb/bugs/>[m.
 Find the GDB manual and other documentation resources online at:
     <[32mhttp://www.gnu.org/software/gdb/documentation/[m>.
-[?2004h--Type <RET> for more, q to quit, c to continue without paging--
-[?2004l
+
 For help, type "help".
 Type "apropos word" to search for commands related to "word"...
-Reading symbols from [32massign2a[m...
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--
+[?2004lReading symbols from [32massign3[m...
 
 This GDB supports auto-downloading debuginfo from the following URLs:
   <[32mhttps://debuginfod.fedoraproject.org/[m>
 [?2004hEnable debuginfod for this session? (y or [n]) y
 [?2004lDebuginfod has been enabled.
 To make this setting permanent, add 'set debuginfod enabled on' to .gdbinit.
-Downloading separate debug info for [32m/home/csusers/yuge.zhang1/Desktop/355/assign2a[m
-[###                                                                                          ]                                                                                                 (No debugging symbols found in [32massign2a[m)
-[?2004h(gdb) b main
-[?2004lBreakpoint 1 at [34m0x4101d4[m
-[?2004h(gdb) b b1
-[?2004lBreakpoint 2 at [34m0x410238[m
+Downloading separate debug info for [32m/home/csusers/yuge.zhang1/Desktop/355/assign3[m
+[###                                                                                          ]                                                                                                 (No debugging symbols found in [32massign3[m)
+[?2004h(gdb) b Shell_sort_1
+[?2004lBreakpoint 1 at [34m0x41029c[m
+[?2004h(gdb) b Print_sorted_array
+[?2004lBreakpoint 2 at [34m0x41033c[m
 [?2004h(gdb) r
-[?2004lStarting program: [32m/home/csusers/yuge.zhang1/Desktop/355/assign2a[m 
-                                                                                                                                                                                                  [Thread debugging using libthread_db enabled]
+[?2004lStarting program: [32m/home/csusers/yuge.zhang1/Desktop/355/assign3[m 
+Downloading separate debug info for [32msystem-supplied DSO at 0xfffff7ffb000[m
+[###                                                                                          ]                                                                                                                                                                                                  [Thread debugging using libthread_db enabled]
 Using host libthread_db library "[32m/lib64/libthread_db.so.1[m".
+Unsorted array:
+v[0] = 258
+v[1] = 265
+v[2] = 121
+v[3] = 10
+v[4] = 50
+v[5] = 155
+v[6] = 224
+v[7] = 471
+v[8] = 91
+v[9] = 62
+v[10] = 144
+v[11] = 297
+v[12] = 426
+v[13] = 263
+v[14] = 253
+v[15] = 132
+v[16] = 408
+v[17] = 285
+v[18] = 231
+v[19] = 285
+v[20] = 293
+v[21] = 253
+v[22] = 330
+v[23] = 180
+v[24] = 459
+v[25] = 208
+v[26] = 379
+v[27] = 181
+v[28] = 105
+v[29] = 198
+v[30] = 327
+v[31] = 363
+v[32] = 464
+v[33] = 448
+v[34] = 373
+v[35] = 2
+v[36] = 91
+v[37] = 85
+v[38] = 473
+v[39] = 182
+v[40] = 147
+v[41] = 105
+v[42] = 479
+v[43] = 61
+v[44] = 369
+v[45] = 221
+v[46] = 194
+v[47] = 265
+v[48] = 506
+v[49] = 425
+v[50] = 38
+v[51] = 287
+v[52] = 167
+v[53] = 368
+v[54] = 467
+v[55] = 114
+v[56] = 64
+v[57] = 334
+v[58] = 295
+v[59] = 169
+v[60] = 20
+v[61] = 111
+v[62] = 20
+v[63] = 484
+v[64] = 47
+v[65] = 393
+v[66] = 487
+v[67] = 139
+v[68] = 479
+v[69] = 448
+v[70] = 321
+v[71] = 114
+v[72] = 42
+v[73] = 289
+v[74] = 176
+v[75] = 411
+v[76] = 510
+v[77] = 370
+v[78] = 164
+v[79] = 504
+v[80] = 283
+v[81] = 202
+v[82] = 279
+v[83] = 450
+v[84] = 58
+v[85] = 234
+v[86] = 52
+v[87] = 122
+v[88] = 56
+v[89] = 348
+v[90] = 292
+v[91] = 76
+v[92] = 459
+v[93] = 312
+v[94] = 49
+v[95] = 506
+v[96] = 194
+v[97] = 24
+v[98] = 133
+v[99] = 161
 
-Breakpoint 1, [34m0x00000000004101d4[m in [33mmain[m ()
-[?2004h[?2004l[?2004h(gdb) f[Kdisplay/i $pc
-[?2004l1: x/i $pc
-=> [34m0x4101d4[m <[33mmain[m+8>:	[32mmov[m	[31mw19[m, [34m#0x7fc07fc             [m[37;2m	// #133957628[m
-[?2004h(gdb) ni
-[?2004l[34m0x00000000004101d8[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x4101d8[m <[33mmain[m+12>:	[32mand[m	[31mw25[m, [31mw19[m, [34m#0x55555555[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x00000000004101dc[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x4101dc[m <[33mmain[m+16>:	[32mlsl[m	[31mw21[m, [31mw25[m, [34m#1[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x00000000004101e0[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x4101e0[m <[33mmain[m+20>:	[32mlsr[m	[31mw26[m, [31mw19[m, [34m#1[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x00000000004101e4[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x4101e4[m <[33mmain[m+24>:	[32mand[m	[31mw22[m, [31mw26[m, [34m#0x55555555[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x00000000004101e8[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x4101e8[m <[33mmain[m+28>:	[32morr[m	[31mw20[m, [31mw21[m, [31mw22[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x00000000004101ec[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x4101ec[m <[33mmain[m+32>:	[32mand[m	[31mw25[m, [31mw20[m, [34m#0x33333333[m
-[?2004h[?2004l[?2004h(gdb) p/x $w20
-[?2004l$1 = 0xbfc0bfc
-[?2004h(gdb) p/x $w20[K1
-[?2004l$2 = 0xaa80aa8
-[?2004h(gdb) p/x $w21[K2
-[?2004l$3 = 0x1540154
-[?2004h(gdb) ni
-[?2004l[34m0x00000000004101f0[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x4101f0[m <[33mmain[m+36>:	[32mlsl[m	[31mw21[m, [31mw25[m, [34m#2[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x00000000004101f4[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x4101f4[m <[33mmain[m+40>:	[32mlsr[m	[31mw26[m, [31mw20[m, [34m#2[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x00000000004101f8[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x4101f8[m <[33mmain[m+44>:	[32mand[m	[31mw22[m, [31mw26[m, [34m#0x33333333[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x00000000004101fc[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x4101fc[m <[33mmain[m+48>:	[32morr[m	[31mw20[m, [31mw21[m, [31mw22[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x0000000000410200[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x410200[m <[33mmain[m+52>:	[32mand[m	[31mw25[m, [31mw20[m, [34m#0xf0f0f0f[m
-[?2004h[?2004l[?2004h(gdb) p/x $w20
-[?2004l$4 = 0xef30ef3
-[?2004h(gdb) p/x $w20\[K[K1
-[?2004l$5 = 0xcc00cc0
-[?2004h(gdb) p/x $w21[K2
-[?2004l$6 = 0x2330233
-[?2004h(gdb) ni
-[?2004l[34m0x0000000000410204[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x410204[m <[33mmain[m+56>:	[32mlsl[m	[31mw21[m, [31mw25[m, [34m#4[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x0000000000410208[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x410208[m <[33mmain[m+60>:	[32mlsr[m	[31mw26[m, [31mw20[m, [34m#4[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x000000000041020c[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x41020c[m <[33mmain[m+64>:	[32mand[m	[31mw22[m, [31mw26[m, [34m#0xf0f0f0f[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x0000000000410210[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x410210[m <[33mmain[m+68>:	[32morr[m	[31mw20[m, [31mw21[m, [31mw22[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x0000000000410214[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x410214[m <[33mmain[m+72>:	[32mlsl[m	[31mw21[m, [31mw20[m, [34m#24[m
-[?2004h[?2004l[?2004h(gdb) p/x $w19\\[K[K[K[K20
-[?2004l$7 = 0xe03fe03f
-[?2004h(gdb) p/x $w20[K1
-[?2004l$8 = 0xe030e030
-[?2004h(gdb) p/x $w21[K2
-[?2004l$9 = 0xf000f
-[?2004h(gdb) ni
-[?2004l[34m0x0000000000410218[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x410218[m <[33mmain[m+76>:	[32mand[m	[31mw25[m, [31mw20[m, [34m#0xff00[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x000000000041021c[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x41021c[m <[33mmain[m+80>:	[32mlsl[m	[31mw22[m, [31mw25[m, [34m#8[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x0000000000410220[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x410220[m <[33mmain[m+84>:	[32mlsr[m	[31mw26[m, [31mw20[m, [34m#8[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x0000000000410224[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x410224[m <[33mmain[m+88>:	[32mand[m	[31mw23[m, [31mw26[m, [34m#0xff00[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x0000000000410228[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x410228[m <[33mmain[m+92>:	[32mlsr[m	[31mw24[m, [31mw20[m, [34m#24[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x000000000041022c[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x41022c[m <[33mmain[m+96>:	[32morr[m	[31mw20[m, [31mw21[m, [31mw22[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x0000000000410230[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x410230[m <[33mmain[m+100>:	[32morr[m	[31mw20[m, [31mw20[m, [31mw23[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l[34m0x0000000000410234[m in [33mmain[m ()
-1: x/i $pc
-=> [34m0x410234[m <[33mmain[m+104>:	[32morr[m	[31mw20[m, [31mw20[m, [31mw24[m
-[?2004h[?2004l[?2004h(gdb) ni
-[?2004l
-Breakpoint 2, [34m0x0000000000410238[m in [33mb1[m ()
-1: x/i $pc
-=> [34m0x410238[m <[33mb1[m>:	[32madrp[m	[31mx0[m, [34m0x410000[m <[33m_init[m>
-[?2004h[?2004l[?2004h(gdb) p/x $w20
-[?2004l$10 = 0x3fe03fe0
-[?2004h(gdb) p/x $w21
-[?2004l$11 = 0x3f000000
-[?2004h(gdb) p/x $w22
-[?2004l$12 = 0xe00000
-[?2004h(gdb) p/x $w22[K3
-[?2004l$13 = 0x3f00
-[?2004h(gdb) p/x $w23[K4
-[?2004l$14 = 0xe0
-[?2004h(gdb) p/x $w19
-[?2004l$15 = 0x7fc07fc
-[?2004h(gdb) p/t $w19
-[?2004l$16 = 111111111000000011111111100
-[?2004h(gdb) p/t $w20
-[?2004l$17 = 111111111000000011111111100000
-[?2004h(gdb) q
-[?2004l[?2004hA debugging session is active.
+Breakpoint 1, [34m0x000000000041029c[m in [33mShell_sort_1[m ()
+[?2004h[?2004l[?2004h(gdb) x/100d $fp+32
+[?2004l[34m0xffffffffec30[m:	258	265	121	10
+[34m0xffffffffec40[m:	50	155	224	471
+[34m0xffffffffec50[m:	91	62	144	297
+[34m0xffffffffec60[m:	426	263	253	132
+[34m0xffffffffec70[m:	408	285	231	285
+[34m0xffffffffec80[m:	293	253	330	180
+[34m0xffffffffec90[m:	459	208	379	181
+[34m0xffffffffeca0[m:	105	198	327	363
+[34m0xffffffffecb0[m:	464	448	373	2
+[34m0xffffffffecc0[m:	91	85	473	182
+[34m0xffffffffecd0[m:	147	105	479	61
+[34m0xffffffffece0[m:	369	221	194	265
+[34m0xffffffffecf0[m:	506	425	38	287
+[34m0xffffffffed00[m:	167	368	467	114
+[34m0xffffffffed10[m:	64	334	295	169
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004l[34m0xffffffffed20[m:	20	111	20	484
+[34m0xffffffffed30[m:	47	393	487	139
+[34m0xffffffffed40[m:	479	448	321	114
+[34m0xffffffffed50[m:	42	289	176	411
+[34m0xffffffffed60[m:	510	370	164	504
+[34m0xffffffffed70[m:	283	202	279	450
+[34m0xffffffffed80[m:	58	234	52	122
+[34m0xffffffffed90[m:	56	348	292	76
+[34m0xffffffffeda0[m:	459	312	49	506
+[34m0xffffffffedb0[m:	194	24	133	161
+[?2004h(gdb) c
+[?2004lContinuing.
 
-	Inferior 1 [process 2395771] will be killed.
+Breakpoint 2, [34m0x000000000041033c[m in [33mPrint_sorted_array[m ()
+[?2004h[?2004l[?2004h(gdb) x/100d $fp+32
+[?2004l[34m0xffffffffec30[m:	510	506	506	504
+[34m0xffffffffec40[m:	487	484	479	479
+[34m0xffffffffec50[m:	473	471	467	464
+[34m0xffffffffec60[m:	459	459	450	448
+[34m0xffffffffec70[m:	448	426	425	411
+[34m0xffffffffec80[m:	408	393	379	373
+[34m0xffffffffec90[m:	370	369	368	363
+[34m0xffffffffeca0[m:	348	334	330	327
+[34m0xffffffffecb0[m:	321	312	297	295
+[34m0xffffffffecc0[m:	293	292	289	287
+[34m0xffffffffecd0[m:	285	285	283	279
+[34m0xffffffffece0[m:	265	265	263	258
+[34m0xffffffffecf0[m:	253	253	234	231
+[34m0xffffffffed00[m:	224	221	208	202
+[34m0xffffffffed10[m:	198	194	194	182
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--
+[?2004l[34m0xffffffffed20[m:	181	180	176	169
+[34m0xffffffffed30[m:	167	164	161	155
+[34m0xffffffffed40[m:	147	144	139	133
+[34m0xffffffffed50[m:	132	122	121	114
+[34m0xffffffffed60[m:	114	111	105	105
+[34m0xffffffffed70[m:	91	91	85	76
+[34m0xffffffffed80[m:	64	62	61	58
+[34m0xffffffffed90[m:	56	52	50	49
+[34m0xffffffffeda0[m:	47	42	38	24
+[34m0xffffffffedb0[m:	20	20	10	2
+[?2004h(gdb) c
+[?2004lContinuing.
 
-Quit anyway? (y or n) y
+Sorted array:
+v[0] = 510
+v[1] = 506
+v[2] = 506
+v[3] = 504
+v[4] = 487
+v[5] = 484
+v[6] = 479
+v[7] = 479
+v[8] = 473
+v[9] = 471
+v[10] = 467
+v[11] = 464
+v[12] = 459
+v[13] = 459
+v[14] = 450
+v[15] = 448
+v[16] = 448
+v[17] = 426
+v[18] = 425
+v[19] = 411
+v[20] = 408
+v[21] = 393
+v[22] = 379
+v[23] = 373
+v[24] = 370
+v[25] = 369
+v[26] = 368
+v[27] = 363
+v[28] = 348
+v[29] = 334
+v[30] = 330
+v[31] = 327
+v[32] = 321
+v[33] = 312
+v[34] = 297
+v[35] = 295
+v[36] = 293
+v[37] = 292
+v[38] = 289
+v[39] = 287
+v[40] = 285
+v[41] = 285
+v[42] = 283
+v[43] = 279
+v[44] = 265
+v[45] = 265
+v[46] = 263
+v[47] = 258
+v[48] = 253
+v[49] = 253
+v[50] = 234
+v[51] = 231
+v[52] = 224
+v[53] = 221
+v[54] = 208
+v[55] = 202
+v[56] = 198
+v[57] = 194
+v[58] = 194
+v[59] = 182
+v[60] = 181
+v[61] = 180
+v[62] = 176
+v[63] = 169
+v[64] = 167
+v[65] = 164
+v[66] = 161
+v[67] = 155
+v[68] = 147
+v[69] = 144
+v[70] = 139
+v[71] = 133
+v[72] = 132
+v[73] = 122
+v[74] = 121
+v[75] = 114
+v[76] = 114
+v[77] = 111
+v[78] = 105
+v[79] = 105
+v[80] = 91
+v[81] = 91
+v[82] = 85
+v[83] = 76
+v[84] = 64
+v[85] = 62
+v[86] = 61
+v[87] = 58
+v[88] = 56
+v[89] = 52
+v[90] = 50
+v[91] = 49
+v[92] = 47
+v[93] = 42
+v[94] = 38
+v[95] = 24
+v[96] = 20
+v[97] = 20
+v[98] = 10
+v[99] = 2
+[Inferior 1 (process 3085027) exited normally]
+[?2004h[?2004l[?2004h(gdb) q
 [?2004l]0;yuge.zhang1@csa1:~/Desktop/355[?2004h[UC yuge.zhang1@csa1 355] exit
 [?2004lexit
 
-Script done on 2023-10-06 15:40:04-06:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2023-10-21 15:42:16-06:00 [COMMAND_EXIT_CODE="0"]
