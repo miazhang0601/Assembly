@@ -1,15 +1,0 @@
-Script started on 2023-11-23 20:19:50-07:00 [TERM="xterm-256color" TTY="/dev/pts/331" COLUMNS="132" LINES="18"]
-
-Disk quotas for user yuge.zhang1 (uid 29867882): 
-     Filesystem   space   quota   limit   grace   files   quota   limit   grace
-10.44.68.26:/CS   1313M  10240M  10240M           10912    100k    100k        
-
-]0;yuge.zhang1@csa2:~/Desktop/355[?2004h[UC yuge.zhang1@csa2 355] [7mm4 a5b.asm > a5b.s[27mm4 a5b.asm > a5b.s
-[?2004l]0;yuge.zhang1@csa2:~/Desktop/355[?2004h[UC yuge.zhang1@csa2 355] [7mgcc -o a5b a5b.s[27mgcc -o a5b a5b.s
-[?2004l]0;yuge.zhang1@csa2:~/Desktop/355[?2004h[UC yuge.zhang1@csa2 355] ./a5b 12 25
-[?2004lDecember 25th is Winter.]0;yuge.zhang1@csa2:~/Desktop/355[?2004h[UC yuge.zhang1@csa2 355] ./a5b 12 25[K[K[K[K[K3 30
-[?2004lMarch 30th is Spring.]0;yuge.zhang1@csa2:~/Desktop/355[?2004h[UC yuge.zhang1@csa2 355] ./a5b 3 30[K[K[K[K6 1
-[?2004lJune 1st is Spring.]0;yuge.zhang1@csa2:~/Desktop/355[?2004h[UC yuge.zhang1@csa2 355] exit
-[?2004lexit
-
-Script done on 2023-11-23 20:21:02-07:00 [COMMAND_EXIT_CODE="19"]
